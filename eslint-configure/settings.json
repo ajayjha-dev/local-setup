@@ -1,0 +1,62 @@
+{
+    "editor.tabSize": 2,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    // "editor.rulers": [80],
+    "editor.minimap.enabled": true,
+    "editor.renderIndentGuides": true,
+    "editor.showFoldingControls": "always",
+    "files.insertFinalNewline": true,
+    "files.autoSave": "off",
+    "files.exclude": {
+      "**/dest": true,
+      "**/dist": true,
+      "**/build": true,
+      "**/bower_components": true,
+      "**/node_modules": true,
+      "**/coverage": true,
+      "**/log": true,
+      "**/logs": true,
+      "**/.nyc_output": true
+    },
+    "files.watcherExclude": {
+      "**/bower_components/**": true,
+      "**/dest/**": true,
+      "**/dist/**": true,
+      "**/build/**": true,
+      "**/log/**": true,
+      "**/logs/**": true,
+      "**/node_modules/**": true,
+      "**/coverage/**": true,
+      "**/.nyc_output/**": true
+    },
+    "search.exclude": {
+      "**/dest": true,
+      "**/dist": true,
+      "**/build/**": true,
+      "**/bower_components": true,
+      "**/node_modules": true,
+      "**/log": true,
+      "**/logs": true,
+      "**/coverage": true,
+      "**/.nyc_output": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "eslint.autoFixOnSave": true,
+    "window.zoomLevel": 0,
+    "update.enableWindowsBackgroundUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.channel": "none",
+    "update.mode": "none",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnSave": true,
+    "prettier.jsxSingleQuote": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  }
+  
